@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.operator{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+.decimal{
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.equal{
+    border: 1px solid violet;
+    border-radius: 10px;
+}
+
+#clear-btn{
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: palegreen;
+}
+
+.operator:hover{
+    background-color: paleturquoise;
+}
+
+.decimal:hover{
+    background-color: palegoldenrod;
+}
+
+.equal:hover{
+    background-color: plum;
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#clear-btn:hover{
+    background-color: palevioletred;
+}
+
+#screen{
+    width: 200px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current{
+    font-size: 30px;
+}
